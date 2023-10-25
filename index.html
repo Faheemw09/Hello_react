@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namaste React</title>
+    <link  rel="stylesheet"  href="index.css"/>
 </head>
 <body>
     <div id="root"></div>
+       
 
-    <script> 
+
+
+
+
+    <!-- <script> 
 
 
 
@@ -17,6 +23,33 @@
     heading.innerHTML="Hello world by javaScript"
     const root=document.getElementById("root")
    root.appendChild(heading)
-    </script>
+    </script> -->
+
+
+<!-- using react to create hello world -->
+
+    <!-- now we use links from the cdn  Content Delivery Network  React and paste it between body tag ,now our index.html has react in it -->
+
+
+<!-- //this is core of react  -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>   
+    
+    <!-- //this is used for Dom operation -->
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>   
+
+<!-- 
+<script>
+            //   create h1 tage in React                        
+   const heading= React.createElement("h1",{id="heading"},"hello world from react!");
+//   create aroot in React using react dom
+{} is used to gave attritubes to the tag that is we can guve id="heading" to this h1 tag
+//    const root=  ReactDOM.createRoot(document.getElementById("root"))
+//    root.render(heading  )
+</script> -->
+
+<!-- we can also create aap.js and put all react in it it also works  go  to app.js -->
+<script src="/app.js"></script>
 </body>
 </html>
+
+
